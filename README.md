@@ -34,6 +34,10 @@ This is a simple automated test script written in Java using Selenium WebDriver 
 
 Contributions are welcome! If you find any issues or want to enhance the test, feel free to fork this repository and submit a pull request.
 
+## Warning
+
+Could be troubles with verification code (This is not provided in the code).
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
