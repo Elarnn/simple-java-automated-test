@@ -13,13 +13,13 @@ public class ProfilePage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "/html/body/div[1]/div[1]/header/div/div[2]/div[4]/deferred-side-panel")
+    @FindBy(xpath = "/html/body/div[1]/div[1]/header/div/div[2]/div[3]/deferred-side-panel/include-fragment/user-drawer-side-panel/button/span/span/img")
     private WebElement userMenu;
 
-    @FindBy(xpath = "/html/body/div[1]/div[1]/header/div/div[2]/div[4]/deferred-side-panel/user-drawer-side-panel/div/modal-dialog/div[2]/nav/nav-list/ul/li[23]/a/span")
+    @FindBy(xpath = "/html/body/div[1]/div[1]/header/div[1]/div[2]/div[3]/deferred-side-panel/user-drawer-side-panel/div/modal-dialog/div[2]/nav/nav-list/ul/li[23]/a/span")
     private WebElement logoutButton;
 
-    @FindBy (xpath = "/html/body/div[1]/div[1]/header/div/div[2]/div[4]/deferred-side-panel/user-drawer-side-panel/div/modal-dialog/div[1]/div/div[1]/div/div[2]/div/span/span")
+    @FindBy (xpath = "/html/body/div[1]/div[1]/header/div/div[2]/div[3]/deferred-side-panel/user-drawer-side-panel/div/modal-dialog/div[1]/div/div[1]/div/div[2]/div/span/span")
     private WebElement profileName;
     // method to check is correct username
     public String getUserName() {
